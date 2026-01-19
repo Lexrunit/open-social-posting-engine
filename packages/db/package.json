@@ -1,0 +1,20 @@
+{
+  "name": "@open-social/db",
+  "version": "0.1.0",
+  "description": "Database access layer with Appwrite",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@open-social/core": "*",
+    "node-appwrite": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2"
+  }
+}

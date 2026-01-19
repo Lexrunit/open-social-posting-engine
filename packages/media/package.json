@@ -1,0 +1,22 @@
+{
+  "name": "@open-social/media",
+  "version": "0.1.0",
+  "description": "Media processing and image optimization",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@open-social/core": "*",
+    "sharp": "^0.33.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/sharp": "^0.32.0",
+    "typescript": "^5.3.2"
+  }
+}
