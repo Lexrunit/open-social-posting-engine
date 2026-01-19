@@ -203,7 +203,7 @@ The API will be available at `http://localhost:4000/graphql`
 mutation {
   createPost(
     input: {
-      content: "Hello from Open Social Posting Engine! 🚀"
+      content: "Hello from Open Social Posting Engine! "
       platforms: [LINKEDIN, X]
     }
   ) {
@@ -250,23 +250,23 @@ open-social-posting-engine/
 
 ## Features
 
-✅ **Multi-Platform Publishing**
+ **Multi-Platform Publishing**
 - LinkedIn, X (Twitter), Facebook, Instagram
 - Unified API across all platforms
 - Platform-specific optimizations
 
-✅ **AI-Powered Content**
+ **AI-Powered Content**
 - Optional AI summarization and rewriting
 - Platform-specific tone adaptation
 - Image caption generation
 
-✅ **Robust Infrastructure**
+ **Robust Infrastructure**
 - Redis-based job queue
 - Retry with exponential backoff
 - Idempotency guarantees
 - Scheduled publishing
 
-✅ **Developer-Friendly**
+ **Developer-Friendly**
 - GraphQL API
 - TypeScript throughout
 - Comprehensive documentation
